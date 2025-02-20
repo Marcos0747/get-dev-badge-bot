@@ -36,9 +36,9 @@ async def on_ready():
 
     except Exception as e:
         print(e)
+        
 @tokischa22.tree.command(name="claim",
                    description="Claim your Active Developer Badge")
-
 async def claim(interaction: discord.Interaction):
     now = datetime.now()
     formatted_date = now.strftime("%d %B %Y %H:%M:%S")
