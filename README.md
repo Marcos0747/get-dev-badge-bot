@@ -25,9 +25,7 @@ This is a Discord bot designed to help users claim the **Active Developer Badge*
 
 `setup.bat`
 
-3. Add your bot token in `config.py` file
-
-4. Run the bot:
+3. Run the bot:
 
 `python main.py`
 
